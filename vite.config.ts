@@ -15,4 +15,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+
+  // 🔥 ESSA LINHA FAZ A PÁGINA FUNCIONAR NO GITHUB PAGES
+  base: "/Lida-de-Campo/",
 }));
